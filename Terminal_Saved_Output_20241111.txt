@@ -1,0 +1,1349 @@
+Last login: Thu Oct 24 18:10:29 on ttys011
+frankpulidoalvarez@Franks-iMac sprint3_developers % git sttaus
+git: 'sttaus' is not a git command. See 'git --help'.
+
+The most similar command is
+	status
+frankpulidoalvarez@Franks-iMac sprint3_developers % git status
+On branch main
+Your branch is up to date with 'origin/main'.
+
+nothing to commit, working tree clean
+frankpulidoalvarez@Franks-iMac sprint3_developers % git remote
+origin
+frankpulidoalvarez@Franks-iMac sprint3_developers % git remote remove origin
+frankpulidoalvarez@Franks-iMac sprint3_developers % git remote
+frankpulidoalvarez@Franks-iMac sprint3_developers % git remote add origin git@github.com:frankpulido/IT-PHP-Sprint3-DevelopersTeam.git
+frankpulidoalvarez@Franks-iMac sprint3_developers % git remote
+origin
+frankpulidoalvarez@Franks-iMac sprint3_developers % git push -u origin main
+Enumerating objects: 43, done.
+Counting objects: 100% (43/43), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (30/30), done.
+Writing objects: 100% (43/43), 11.62 KiB | 11.62 MiB/s, done.
+Total 43 (delta 2), reused 43 (delta 2), pack-reused 0 (from 0)
+remote: Resolving deltas: 100% (2/2), done.
+To github.com:frankpulido/IT-PHP-Sprint3-DevelopersTeam.git
+ * [new branch]      main -> main
+branch 'main' set up to track 'origin/main'.
+frankpulidoalvarez@Franks-iMac sprint3_developers % 
+  [Restored 25 Oct 2024 at 09:27:48]
+Last login: Fri Oct 25 09:27:35 on console
+/Users/frankpulidoalvarez/.zsh_sessions/EA0EF07A-3685-4811-85B3-2B5D95BC98ED.session:2: command not found: Saving
+frankpulidoalvarez@Franks-iMac sprint3_developers % 
+  [Restored 29 Oct 2024 at 16:22:08]
+Last login: Tue Oct 29 16:21:59 on console
+/Users/frankpulidoalvarez/.zsh_sessions/EA0EF07A-3685-4811-85B3-2B5D95BC98ED.session:2: command not found: Saving
+frankpulidoalvarez@Franks-iMac sprint3_developers % 
+  [Restored 4 Nov 2024 at 08:00:55]
+Last login: Mon Nov  4 08:00:55 on ttys005
+/Users/frankpulidoalvarez/.zsh_sessions/EA0EF07A-3685-4811-85B3-2B5D95BC98ED.session:2: command not found: Saving
+frankpulidoalvarez@Franks-iMac sprint3_developers % 
+  [Restored 4 Nov 2024 at 11:32:07]
+Last login: Mon Nov  4 11:32:07 on ttys005
+/Users/frankpulidoalvarez/.zsh_sessions/EA0EF07A-3685-4811-85B3-2B5D95BC98ED.session:2: command not found: Saving
+frankpulidoalvarez@Franks-iMac sprint3_developers % 
+  [Restored 5 Nov 2024 at 10:33:32]
+Last login: Tue Nov  5 10:33:32 on ttys005
+/Users/frankpulidoalvarez/.zsh_sessions/EA0EF07A-3685-4811-85B3-2B5D95BC98ED.session:2: command not found: Saving
+frankpulidoalvarez@Franks-iMac sprint3_developers % 
+  [Restored 5 Nov 2024 at 16:46:33]
+Last login: Tue Nov  5 16:46:33 on ttys005
+/Users/frankpulidoalvarez/.zsh_sessions/EA0EF07A-3685-4811-85B3-2B5D95BC98ED.session:2: command not found: Saving
+frankpulidoalvarez@Franks-iMac sprint3_developers % 
+  [Restored 6 Nov 2024 at 09:40:56]
+Last login: Wed Nov  6 09:40:56 on ttys005
+/Users/frankpulidoalvarez/.zsh_sessions/EA0EF07A-3685-4811-85B3-2B5D95BC98ED.session:2: command not found: Saving
+frankpulidoalvarez@Franks-iMac sprint3_developers % 
+  [Restored 6 Nov 2024 at 17:00:52]
+Last login: Wed Nov  6 17:00:52 on ttys005
+/Users/frankpulidoalvarez/.zsh_sessions/EA0EF07A-3685-4811-85B3-2B5D95BC98ED.session:2: command not found: Saving
+frankpulidoalvarez@Franks-iMac sprint3_developers % 
+  [Restored 7 Nov 2024 at 08:19:07]
+Last login: Thu Nov  7 08:19:06 on ttys000
+/Users/frankpulidoalvarez/.zsh_sessions/EA0EF07A-3685-4811-85B3-2B5D95BC98ED.session:2: command not found: Saving
+frankpulidoalvarez@Franks-iMac sprint3_developers % 
+  [Restored 7 Nov 2024 at 15:43:11]
+Last login: Thu Nov  7 15:43:11 on ttys005
+/Users/frankpulidoalvarez/.zsh_sessions/EA0EF07A-3685-4811-85B3-2B5D95BC98ED.session:2: command not found: Saving
+frankpulidoalvarez@Franks-iMac sprint3_developers % 
+  [Restored 8 Nov 2024 at 07:51:27]
+Last login: Fri Nov  8 07:51:23 on console
+/Users/frankpulidoalvarez/.zsh_sessions/EA0EF07A-3685-4811-85B3-2B5D95BC98ED.session:2: command not found: Saving
+frankpulidoalvarez@Franks-iMac sprint3_developers % 
+  [Restored 8 Nov 2024 at 18:12:36]
+Last login: Fri Nov  8 18:12:35 on ttys005
+/Users/frankpulidoalvarez/.zsh_sessions/EA0EF07A-3685-4811-85B3-2B5D95BC98ED.session:2: command not found: Saving
+frankpulidoalvarez@Franks-iMac sprint3_developers % 
+  [Restored 8 Nov 2024 at 23:31:38]
+Last login: Fri Nov  8 23:31:38 on ttys005
+/Users/frankpulidoalvarez/.zsh_sessions/EA0EF07A-3685-4811-85B3-2B5D95BC98ED.session:2: command not found: Saving
+frankpulidoalvarez@Franks-iMac sprint3_developers % 
+  [Restored 9 Nov 2024 at 08:55:33]
+Last login: Sat Nov  9 08:55:33 on ttys004
+/Users/frankpulidoalvarez/.zsh_sessions/EA0EF07A-3685-4811-85B3-2B5D95BC98ED.session:2: command not found: Saving
+frankpulidoalvarez@Franks-iMac sprint3_developers % 
+  [Restored 10 Nov 2024 at 10:05:41]
+Last login: Sun Nov 10 10:05:41 on ttys005
+/Users/frankpulidoalvarez/.zsh_sessions/EA0EF07A-3685-4811-85B3-2B5D95BC98ED.session:2: command not found: Saving
+frankpulidoalvarez@Franks-iMac sprint3_developers % 
+  [Restored 10 Nov 2024 at 17:36:21]
+Last login: Sun Nov 10 17:36:20 on ttys005
+/Users/frankpulidoalvarez/.zsh_sessions/EA0EF07A-3685-4811-85B3-2B5D95BC98ED.session:2: command not found: Saving
+frankpulidoalvarez@Franks-iMac sprint3_developers % 
+  [Restored 10 Nov 2024 at 19:32:34]
+Last login: Sun Nov 10 19:32:34 on ttys005
+/Users/frankpulidoalvarez/.zsh_sessions/EA0EF07A-3685-4811-85B3-2B5D95BC98ED.session:2: command not found: Saving
+frankpulidoalvarez@Franks-iMac sprint3_developers % git remote
+origin
+frankpulidoalvarez@Franks-iMac sprint3_developers % git branches
+git: 'branches' is not a git command. See 'git --help'.
+frankpulidoalvarez@Franks-iMac sprint3_developers % git branch
+* develop
+  main
+frankpulidoalvarez@Franks-iMac sprint3_developers % git branch -r
+  origin/main
+frankpulidoalvarez@Franks-iMac sprint3_developers % git branch -a
+* develop
+  main
+  remotes/origin/main
+frankpulidoalvarez@Franks-iMac sprint3_developers % git push origin develop
+Total 0 (delta 0), reused 0 (delta 0), pack-reused 0 (from 0)
+remote: 
+remote: Create a pull request for 'develop' on GitHub by visiting:
+remote:      https://github.com/frankpulido/IT-PHP-Sprint3-DevelopersTeam/pull/new/develop
+remote: 
+To github.com:frankpulido/IT-PHP-Sprint3-DevelopersTeam.git
+ * [new branch]      develop -> develop
+frankpulidoalvarez@Franks-iMac sprint3_developers % git status
+On branch develop
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+	.DS_Store
+	ReadBeforeProject.pdf
+	app/.DS_Store
+	web/.DS_Store
+
+nothing added to commit but untracked files present (use "git add" to track)
+frankpulidoalvarez@Franks-iMac sprint3_developers % git branch
+* develop
+  main
+frankpulidoalvarez@Franks-iMac sprint3_developers % git checkout -b feature/task-manager
+Switched to a new branch 'feature/task-manager'
+frankpulidoalvarez@Franks-iMac sprint3_developers % git branch
+  develop
+* feature/task-manager
+  main
+frankpulidoalvarez@Franks-iMac sprint3_developers % git status
+On branch feature/task-manager
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+	modified:   app/controllers/ApplicationController.php
+	modified:   config/routes.php
+	modified:   lib/base/Controller.php
+	modified:   web/index.php
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+	.DS_Store
+	ReadBeforeProject.pdf
+	app/.DS_Store
+	app/controllers/TaskController.php
+	app/models/aaaBackendTest.php
+	app/models/programmer.class.php
+	app/models/programmers.json
+	app/models/project.class.php
+	app/models/projects.json
+	app/models/task.class.php
+	app/models/task_kind.class.php
+	app/models/task_manager.class.php
+	app/models/task_status.class.php
+	app/models/tasks.json
+	app/views/layouts/head.php
+	app/views/layouts/header.php
+	app/views/scripts/crud_task/
+	app/views/scripts/view_column_kind.php
+	app/views/scripts/view_column_progress.php
+	app/views/scripts/view_grid.php
+	web/.DS_Store
+	web/stylesheets/styles.css
+
+no changes added to commit (use "git add" and/or "git commit -a")
+frankpulidoalvarez@Franks-iMac sprint3_developers % git add app/controllers/TaskController.php
+frankpulidoalvarez@Franks-iMac sprint3_developers % git add app/models/task.class.php
+frankpulidoalvarez@Franks-iMac sprint3_developers % git add app/models/task_kind.class.php
+frankpulidoalvarez@Franks-iMac sprint3_developers % git add app/models/task_status.class.php
+frankpulidoalvarez@Franks-iMac sprint3_developers % git add app/models/tasks.json
+frankpulidoalvarez@Franks-iMac sprint3_developers % git add app/models/task_manager.class.php
+frankpulidoalvarez@Franks-iMac sprint3_developers % git add app/views/scripts/crud_task/
+frankpulidoalvarez@Franks-iMac sprint3_developers % git status
+On branch feature/task-manager
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+	new file:   app/controllers/TaskController.php
+	new file:   app/models/task.class.php
+	new file:   app/models/task_kind.class.php
+	new file:   app/models/task_manager.class.php
+	new file:   app/models/task_status.class.php
+	new file:   app/models/tasks.json
+	new file:   app/views/scripts/crud_task/create.php
+	new file:   app/views/scripts/crud_task/delete.php
+	new file:   app/views/scripts/crud_task/show.php
+	new file:   app/views/scripts/crud_task/update.php
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+	modified:   app/controllers/ApplicationController.php
+	modified:   config/routes.php
+	modified:   lib/base/Controller.php
+	modified:   web/index.php
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+	.DS_Store
+	ReadBeforeProject.pdf
+	app/.DS_Store
+	app/models/aaaBackendTest.php
+	app/models/programmer.class.php
+	app/models/programmers.json
+	app/models/project.class.php
+	app/models/projects.json
+	app/views/layouts/head.php
+	app/views/layouts/header.php
+	app/views/scripts/view_column_kind.php
+	app/views/scripts/view_column_progress.php
+	app/views/scripts/view_grid.php
+	web/.DS_Store
+	web/stylesheets/styles.css
+
+frankpulidoalvarez@Franks-iMac sprint3_developers % git add app/models/aaaBackendTest.php
+frankpulidoalvarez@Franks-iMac sprint3_developers % git branch
+  develop
+* feature/task-manager
+  main
+frankpulidoalvarez@Franks-iMac sprint3_developers % git checkout develop
+M	app/controllers/ApplicationController.php
+A	app/controllers/TaskController.php
+A	app/models/aaaBackendTest.php
+A	app/models/task.class.php
+A	app/models/task_kind.class.php
+A	app/models/task_manager.class.php
+A	app/models/task_status.class.php
+A	app/models/tasks.json
+A	app/views/scripts/crud_task/create.php
+A	app/views/scripts/crud_task/delete.php
+A	app/views/scripts/crud_task/show.php
+A	app/views/scripts/crud_task/update.php
+M	config/routes.php
+M	lib/base/Controller.php
+M	web/index.php
+Switched to branch 'develop'
+frankpulidoalvarez@Franks-iMac sprint3_developers % git branch
+* develop
+  feature/task-manager
+  main
+frankpulidoalvarez@Franks-iMac sprint3_developers % git checkout -b feature/frontoffice
+Switched to a new branch 'feature/frontoffice'
+frankpulidoalvarez@Franks-iMac sprint3_developers % git branch
+  develop
+* feature/frontoffice
+  feature/task-manager
+  main
+frankpulidoalvarez@Franks-iMac sprint3_developers % git status
+On branch feature/frontoffice
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+	new file:   app/controllers/TaskController.php
+	new file:   app/models/aaaBackendTest.php
+	new file:   app/models/task.class.php
+	new file:   app/models/task_kind.class.php
+	new file:   app/models/task_manager.class.php
+	new file:   app/models/task_status.class.php
+	new file:   app/models/tasks.json
+	new file:   app/views/scripts/crud_task/create.php
+	new file:   app/views/scripts/crud_task/delete.php
+	new file:   app/views/scripts/crud_task/show.php
+	new file:   app/views/scripts/crud_task/update.php
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+	modified:   app/controllers/ApplicationController.php
+	modified:   config/routes.php
+	modified:   lib/base/Controller.php
+	modified:   web/index.php
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+	.DS_Store
+	ReadBeforeProject.pdf
+	app/.DS_Store
+	app/models/programmer.class.php
+	app/models/programmers.json
+	app/models/project.class.php
+	app/models/projects.json
+	app/views/layouts/head.php
+	app/views/layouts/header.php
+	app/views/scripts/view_column_kind.php
+	app/views/scripts/view_column_progress.php
+	app/views/scripts/view_grid.php
+	web/.DS_Store
+	web/stylesheets/styles.css
+
+frankpulidoalvarez@Franks-iMac sprint3_developers % git add app/views/layouts/head.php
+frankpulidoalvarez@Franks-iMac sprint3_developers % git add app/views/layouts/header.php
+frankpulidoalvarez@Franks-iMac sprint3_developers % git add app/views/scripts/view_column_kind.php
+frankpulidoalvarez@Franks-iMac sprint3_developers % git add app/views/scripts/view_column_progress.php
+frankpulidoalvarez@Franks-iMac sprint3_developers % git add app/views/scripts/view_grid.php
+frankpulidoalvarez@Franks-iMac sprint3_developers % git add web/stylesheets/styles.css
+frankpulidoalvarez@Franks-iMac sprint3_developers % git status
+On branch feature/frontoffice
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+	new file:   app/controllers/TaskController.php
+	new file:   app/models/aaaBackendTest.php
+	new file:   app/models/task.class.php
+	new file:   app/models/task_kind.class.php
+	new file:   app/models/task_manager.class.php
+	new file:   app/models/task_status.class.php
+	new file:   app/models/tasks.json
+	new file:   app/views/layouts/head.php
+	new file:   app/views/layouts/header.php
+	new file:   app/views/scripts/crud_task/create.php
+	new file:   app/views/scripts/crud_task/delete.php
+	new file:   app/views/scripts/crud_task/show.php
+	new file:   app/views/scripts/crud_task/update.php
+	new file:   app/views/scripts/view_column_kind.php
+	new file:   app/views/scripts/view_column_progress.php
+	new file:   app/views/scripts/view_grid.php
+	new file:   web/stylesheets/styles.css
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+	modified:   app/controllers/ApplicationController.php
+	modified:   config/routes.php
+	modified:   lib/base/Controller.php
+	modified:   web/index.php
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+	.DS_Store
+	ReadBeforeProject.pdf
+	app/.DS_Store
+	app/models/programmer.class.php
+	app/models/programmers.json
+	app/models/project.class.php
+	app/models/projects.json
+	web/.DS_Store
+
+frankpulidoalvarez@Franks-iMac sprint3_developers % git checkout develop
+M	app/controllers/ApplicationController.php
+A	app/controllers/TaskController.php
+A	app/models/aaaBackendTest.php
+A	app/models/task.class.php
+A	app/models/task_kind.class.php
+A	app/models/task_manager.class.php
+A	app/models/task_status.class.php
+A	app/models/tasks.json
+A	app/views/layouts/head.php
+A	app/views/layouts/header.php
+A	app/views/scripts/crud_task/create.php
+A	app/views/scripts/crud_task/delete.php
+A	app/views/scripts/crud_task/show.php
+A	app/views/scripts/crud_task/update.php
+A	app/views/scripts/view_column_kind.php
+A	app/views/scripts/view_column_progress.php
+A	app/views/scripts/view_grid.php
+M	config/routes.php
+M	lib/base/Controller.php
+M	web/index.php
+A	web/stylesheets/styles.css
+Switched to branch 'develop'
+frankpulidoalvarez@Franks-iMac sprint3_developers % git branch
+* develop
+  feature/frontoffice
+  feature/task-manager
+  main
+frankpulidoalvarez@Franks-iMac sprint3_developers % git checkout -b feature/programmer
+Switched to a new branch 'feature/programmer'
+frankpulidoalvarez@Franks-iMac sprint3_developers % git status
+On branch feature/programmer
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+	new file:   app/controllers/TaskController.php
+	new file:   app/models/aaaBackendTest.php
+	new file:   app/models/task.class.php
+	new file:   app/models/task_kind.class.php
+	new file:   app/models/task_manager.class.php
+	new file:   app/models/task_status.class.php
+	new file:   app/models/tasks.json
+	new file:   app/views/layouts/head.php
+	new file:   app/views/layouts/header.php
+	new file:   app/views/scripts/crud_task/create.php
+	new file:   app/views/scripts/crud_task/delete.php
+	new file:   app/views/scripts/crud_task/show.php
+	new file:   app/views/scripts/crud_task/update.php
+	new file:   app/views/scripts/view_column_kind.php
+	new file:   app/views/scripts/view_column_progress.php
+	new file:   app/views/scripts/view_grid.php
+	new file:   web/stylesheets/styles.css
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+	modified:   app/controllers/ApplicationController.php
+	modified:   config/routes.php
+	modified:   lib/base/Controller.php
+	modified:   web/index.php
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+	.DS_Store
+	ReadBeforeProject.pdf
+	app/.DS_Store
+	app/models/programmer.class.php
+	app/models/programmers.json
+	app/models/project.class.php
+	app/models/projects.json
+	web/.DS_Store
+
+frankpulidoalvarez@Franks-iMac sprint3_developers % git add app/models/programmer.class.php
+frankpulidoalvarez@Franks-iMac sprint3_developers % git add app/models/programmers.json
+frankpulidoalvarez@Franks-iMac sprint3_developers % git checkout develop
+M	app/controllers/ApplicationController.php
+A	app/controllers/TaskController.php
+A	app/models/aaaBackendTest.php
+A	app/models/programmer.class.php
+A	app/models/programmers.json
+A	app/models/task.class.php
+A	app/models/task_kind.class.php
+A	app/models/task_manager.class.php
+A	app/models/task_status.class.php
+A	app/models/tasks.json
+A	app/views/layouts/head.php
+A	app/views/layouts/header.php
+A	app/views/scripts/crud_task/create.php
+A	app/views/scripts/crud_task/delete.php
+A	app/views/scripts/crud_task/show.php
+A	app/views/scripts/crud_task/update.php
+A	app/views/scripts/view_column_kind.php
+A	app/views/scripts/view_column_progress.php
+A	app/views/scripts/view_grid.php
+M	config/routes.php
+M	lib/base/Controller.php
+M	web/index.php
+A	web/stylesheets/styles.css
+Switched to branch 'develop'
+frankpulidoalvarez@Franks-iMac sprint3_developers % git branch
+* develop
+  feature/frontoffice
+  feature/programmer
+  feature/task-manager
+  main
+frankpulidoalvarez@Franks-iMac sprint3_developers % git checkout -b feature/project
+Switched to a new branch 'feature/project'
+frankpulidoalvarez@Franks-iMac sprint3_developers % git status
+On branch feature/project
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+	new file:   app/controllers/TaskController.php
+	new file:   app/models/aaaBackendTest.php
+	new file:   app/models/programmer.class.php
+	new file:   app/models/programmers.json
+	new file:   app/models/task.class.php
+	new file:   app/models/task_kind.class.php
+	new file:   app/models/task_manager.class.php
+	new file:   app/models/task_status.class.php
+	new file:   app/models/tasks.json
+	new file:   app/views/layouts/head.php
+	new file:   app/views/layouts/header.php
+	new file:   app/views/scripts/crud_task/create.php
+	new file:   app/views/scripts/crud_task/delete.php
+	new file:   app/views/scripts/crud_task/show.php
+	new file:   app/views/scripts/crud_task/update.php
+	new file:   app/views/scripts/view_column_kind.php
+	new file:   app/views/scripts/view_column_progress.php
+	new file:   app/views/scripts/view_grid.php
+	new file:   web/stylesheets/styles.css
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+	modified:   app/controllers/ApplicationController.php
+	modified:   config/routes.php
+	modified:   lib/base/Controller.php
+	modified:   web/index.php
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+	.DS_Store
+	ReadBeforeProject.pdf
+	app/.DS_Store
+	app/models/project.class.php
+	app/models/projects.json
+	web/.DS_Store
+
+frankpulidoalvarez@Franks-iMac sprint3_developers % git add app/models/project.class.php
+frankpulidoalvarez@Franks-iMac sprint3_developers % git add app/models/projects.json
+frankpulidoalvarez@Franks-iMac sprint3_developers % git branch
+  develop
+  feature/frontoffice
+  feature/programmer
+* feature/project
+  feature/task-manager
+  main
+frankpulidoalvarez@Franks-iMac sprint3_developers % git checkout develop
+M	app/controllers/ApplicationController.php
+A	app/controllers/TaskController.php
+A	app/models/aaaBackendTest.php
+A	app/models/programmer.class.php
+A	app/models/programmers.json
+A	app/models/project.class.php
+A	app/models/projects.json
+A	app/models/task.class.php
+A	app/models/task_kind.class.php
+A	app/models/task_manager.class.php
+A	app/models/task_status.class.php
+A	app/models/tasks.json
+A	app/views/layouts/head.php
+A	app/views/layouts/header.php
+A	app/views/scripts/crud_task/create.php
+A	app/views/scripts/crud_task/delete.php
+A	app/views/scripts/crud_task/show.php
+A	app/views/scripts/crud_task/update.php
+A	app/views/scripts/view_column_kind.php
+A	app/views/scripts/view_column_progress.php
+A	app/views/scripts/view_grid.php
+M	config/routes.php
+M	lib/base/Controller.php
+M	web/index.php
+A	web/stylesheets/styles.css
+Switched to branch 'develop'
+frankpulidoalvarez@Franks-iMac sprint3_developers % git checkout -b feature/dna
+Switched to a new branch 'feature/dna'
+frankpulidoalvarez@Franks-iMac sprint3_developers % git status
+On branch feature/dna
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+	new file:   app/controllers/TaskController.php
+	new file:   app/models/aaaBackendTest.php
+	new file:   app/models/programmer.class.php
+	new file:   app/models/programmers.json
+	new file:   app/models/project.class.php
+	new file:   app/models/projects.json
+	new file:   app/models/task.class.php
+	new file:   app/models/task_kind.class.php
+	new file:   app/models/task_manager.class.php
+	new file:   app/models/task_status.class.php
+	new file:   app/models/tasks.json
+	new file:   app/views/layouts/head.php
+	new file:   app/views/layouts/header.php
+	new file:   app/views/scripts/crud_task/create.php
+	new file:   app/views/scripts/crud_task/delete.php
+	new file:   app/views/scripts/crud_task/show.php
+	new file:   app/views/scripts/crud_task/update.php
+	new file:   app/views/scripts/view_column_kind.php
+	new file:   app/views/scripts/view_column_progress.php
+	new file:   app/views/scripts/view_grid.php
+	new file:   web/stylesheets/styles.css
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+	modified:   app/controllers/ApplicationController.php
+	modified:   config/routes.php
+	modified:   lib/base/Controller.php
+	modified:   web/index.php
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+	.DS_Store
+	ReadBeforeProject.pdf
+	app/.DS_Store
+	web/.DS_Store
+
+frankpulidoalvarez@Franks-iMac sprint3_developers % git add app/controllers/ApplicationController.php 
+frankpulidoalvarez@Franks-iMac sprint3_developers % git add config/routes.php 
+frankpulidoalvarez@Franks-iMac sprint3_developers % git add lib/base/Controller.php
+frankpulidoalvarez@Franks-iMac sprint3_developers % git add web/index.php
+frankpulidoalvarez@Franks-iMac sprint3_developers % git checkout develop
+M	app/controllers/ApplicationController.php
+A	app/controllers/TaskController.php
+A	app/models/aaaBackendTest.php
+A	app/models/programmer.class.php
+A	app/models/programmers.json
+A	app/models/project.class.php
+A	app/models/projects.json
+A	app/models/task.class.php
+A	app/models/task_kind.class.php
+A	app/models/task_manager.class.php
+A	app/models/task_status.class.php
+A	app/models/tasks.json
+A	app/views/layouts/head.php
+A	app/views/layouts/header.php
+A	app/views/scripts/crud_task/create.php
+A	app/views/scripts/crud_task/delete.php
+A	app/views/scripts/crud_task/show.php
+A	app/views/scripts/crud_task/update.php
+A	app/views/scripts/view_column_kind.php
+A	app/views/scripts/view_column_progress.php
+A	app/views/scripts/view_grid.php
+M	config/routes.php
+M	lib/base/Controller.php
+M	web/index.php
+A	web/stylesheets/styles.css
+Switched to branch 'develop'
+frankpulidoalvarez@Franks-iMac sprint3_developers % git branch
+* develop
+  feature/dna
+  feature/frontoffice
+  feature/programmer
+  feature/project
+  feature/task-manager
+  main
+frankpulidoalvarez@Franks-iMac sprint3_developers % git checkout dna
+error: pathspec 'dna' did not match any file(s) known to git
+frankpulidoalvarez@Franks-iMac sprint3_developers % git checkout feature/dna
+M	app/controllers/ApplicationController.php
+A	app/controllers/TaskController.php
+A	app/models/aaaBackendTest.php
+A	app/models/programmer.class.php
+A	app/models/programmers.json
+A	app/models/project.class.php
+A	app/models/projects.json
+A	app/models/task.class.php
+A	app/models/task_kind.class.php
+A	app/models/task_manager.class.php
+A	app/models/task_status.class.php
+A	app/models/tasks.json
+A	app/views/layouts/head.php
+A	app/views/layouts/header.php
+A	app/views/scripts/crud_task/create.php
+A	app/views/scripts/crud_task/delete.php
+A	app/views/scripts/crud_task/show.php
+A	app/views/scripts/crud_task/update.php
+A	app/views/scripts/view_column_kind.php
+A	app/views/scripts/view_column_progress.php
+A	app/views/scripts/view_grid.php
+M	config/routes.php
+M	lib/base/Controller.php
+M	web/index.php
+A	web/stylesheets/styles.css
+Switched to branch 'feature/dna'
+frankpulidoalvarez@Franks-iMac sprint3_developers % git status
+On branch feature/dna
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+	modified:   app/controllers/ApplicationController.php
+	new file:   app/controllers/TaskController.php
+	new file:   app/models/aaaBackendTest.php
+	new file:   app/models/programmer.class.php
+	new file:   app/models/programmers.json
+	new file:   app/models/project.class.php
+	new file:   app/models/projects.json
+	new file:   app/models/task.class.php
+	new file:   app/models/task_kind.class.php
+	new file:   app/models/task_manager.class.php
+	new file:   app/models/task_status.class.php
+	new file:   app/models/tasks.json
+	new file:   app/views/layouts/head.php
+	new file:   app/views/layouts/header.php
+	new file:   app/views/scripts/crud_task/create.php
+	new file:   app/views/scripts/crud_task/delete.php
+	new file:   app/views/scripts/crud_task/show.php
+	new file:   app/views/scripts/crud_task/update.php
+	new file:   app/views/scripts/view_column_kind.php
+	new file:   app/views/scripts/view_column_progress.php
+	new file:   app/views/scripts/view_grid.php
+	modified:   config/routes.php
+	modified:   lib/base/Controller.php
+	modified:   web/index.php
+	new file:   web/stylesheets/styles.css
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+	.DS_Store
+	ReadBeforeProject.pdf
+	app/.DS_Store
+	web/.DS_Store
+
+frankpulidoalvarez@Franks-iMac sprint3_developers % git status -s
+M  app/controllers/ApplicationController.php
+A  app/controllers/TaskController.php
+A  app/models/aaaBackendTest.php
+A  app/models/programmer.class.php
+A  app/models/programmers.json
+A  app/models/project.class.php
+A  app/models/projects.json
+A  app/models/task.class.php
+A  app/models/task_kind.class.php
+A  app/models/task_manager.class.php
+A  app/models/task_status.class.php
+A  app/models/tasks.json
+A  app/views/layouts/head.php
+A  app/views/layouts/header.php
+A  app/views/scripts/crud_task/create.php
+A  app/views/scripts/crud_task/delete.php
+A  app/views/scripts/crud_task/show.php
+A  app/views/scripts/crud_task/update.php
+A  app/views/scripts/view_column_kind.php
+A  app/views/scripts/view_column_progress.php
+A  app/views/scripts/view_grid.php
+M  config/routes.php
+M  lib/base/Controller.php
+M  web/index.php
+A  web/stylesheets/styles.css
+?? .DS_Store
+?? ReadBeforeProject.pdf
+?? app/.DS_Store
+?? web/.DS_Store
+frankpulidoalvarez@Franks-iMac sprint3_developers % git branch
+  develop
+* feature/dna
+  feature/frontoffice
+  feature/programmer
+  feature/project
+  feature/task-manager
+  main
+frankpulidoalvarez@Franks-iMac sprint3_developers % git diff --cached --name-only
+app/controllers/ApplicationController.php
+app/controllers/TaskController.php
+app/models/aaaBackendTest.php
+app/models/programmer.class.php
+app/models/programmers.json
+app/models/project.class.php
+app/models/projects.json
+app/models/task.class.php
+app/models/task_kind.class.php
+app/models/task_manager.class.php
+app/models/task_status.class.php
+app/models/tasks.json
+app/views/layouts/head.php
+app/views/layouts/header.php
+app/views/scripts/crud_task/create.php
+app/views/scripts/crud_task/delete.php
+app/views/scripts/crud_task/show.php
+app/views/scripts/crud_task/update.php
+app/views/scripts/view_column_kind.php
+app/views/scripts/view_column_progress.php
+app/views/scripts/view_grid.php
+config/routes.php
+lib/base/Controller.php
+web/index.php
+web/stylesheets/styles.css
+frankpulidoalvarez@Franks-iMac sprint3_developers % git checkout dna          
+error: pathspec 'dna' did not match any file(s) known to git
+frankpulidoalvarez@Franks-iMac sprint3_developers % git checkout feature/frontoffice
+M	app/controllers/ApplicationController.php
+A	app/controllers/TaskController.php
+A	app/models/aaaBackendTest.php
+A	app/models/programmer.class.php
+A	app/models/programmers.json
+A	app/models/project.class.php
+A	app/models/projects.json
+A	app/models/task.class.php
+A	app/models/task_kind.class.php
+A	app/models/task_manager.class.php
+A	app/models/task_status.class.php
+A	app/models/tasks.json
+A	app/views/layouts/head.php
+A	app/views/layouts/header.php
+A	app/views/scripts/crud_task/create.php
+A	app/views/scripts/crud_task/delete.php
+A	app/views/scripts/crud_task/show.php
+A	app/views/scripts/crud_task/update.php
+A	app/views/scripts/view_column_kind.php
+A	app/views/scripts/view_column_progress.php
+A	app/views/scripts/view_grid.php
+M	config/routes.php
+M	lib/base/Controller.php
+M	web/index.php
+A	web/stylesheets/styles.css
+Switched to branch 'feature/frontoffice'
+frankpulidoalvarez@Franks-iMac sprint3_developers % git ls-tree --name-only -r HEAD
+README.md
+app/controllers/ApplicationController.php
+app/controllers/ErrorController.php
+app/controllers/TestController.php
+app/models/README
+app/views/layouts/layout.phtml
+app/views/scripts/error/error.phtml
+app/views/scripts/test/index.phtml
+config/db.inc.php
+config/environment.inc.php
+config/routes.php
+config/settings.ini
+lib/README
+lib/base/Controller.php
+lib/base/Model.php
+lib/base/Request.php
+lib/base/Router.php
+lib/base/View.php
+web/.htaccess
+web/images/README
+web/index.php
+web/javascripts/README
+web/stylesheets/README
+frankpulidoalvarez@Franks-iMac sprint3_developers % git reset
+Unstaged changes after reset:
+M	app/controllers/ApplicationController.php
+M	config/routes.php
+M	lib/base/Controller.php
+M	web/index.php
+frankpulidoalvarez@Franks-iMac sprint3_developers % git branch
+  develop
+  feature/dna
+* feature/frontoffice
+  feature/programmer
+  feature/project
+  feature/task-manager
+  main
+frankpulidoalvarez@Franks-iMac sprint3_developers % git checkout feature/dna
+M	app/controllers/ApplicationController.php
+M	config/routes.php
+M	lib/base/Controller.php
+M	web/index.php
+Switched to branch 'feature/dna'
+frankpulidoalvarez@Franks-iMac sprint3_developers % git branch
+  develop
+* feature/dna
+  feature/frontoffice
+  feature/programmer
+  feature/project
+  feature/task-manager
+  main
+frankpulidoalvarez@Franks-iMac sprint3_developers % git status
+On branch feature/dna
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+	modified:   app/controllers/ApplicationController.php
+	modified:   config/routes.php
+	modified:   lib/base/Controller.php
+	modified:   web/index.php
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+	.DS_Store
+	ReadBeforeProject.pdf
+	app/.DS_Store
+	app/controllers/TaskController.php
+	app/models/aaaBackendTest.php
+	app/models/programmer.class.php
+	app/models/programmers.json
+	app/models/project.class.php
+	app/models/projects.json
+	app/models/task.class.php
+	app/models/task_kind.class.php
+	app/models/task_manager.class.php
+	app/models/task_status.class.php
+	app/models/tasks.json
+	app/views/layouts/head.php
+	app/views/layouts/header.php
+	app/views/scripts/crud_task/
+	app/views/scripts/view_column_kind.php
+	app/views/scripts/view_column_progress.php
+	app/views/scripts/view_grid.php
+	web/.DS_Store
+	web/stylesheets/styles.css
+
+no changes added to commit (use "git add" and/or "git commit -a")
+frankpulidoalvarez@Franks-iMac sprint3_developers % git add app/controllers/ApplicationController.php
+frankpulidoalvarez@Franks-iMac sprint3_developers % git add config/routes.php
+frankpulidoalvarez@Franks-iMac sprint3_developers % git add lib/base/Controller.php
+frankpulidoalvarez@Franks-iMac sprint3_developers % git add web/index.php
+frankpulidoalvarez@Franks-iMac sprint3_developers % git status
+On branch feature/dna
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+	modified:   app/controllers/ApplicationController.php
+	modified:   config/routes.php
+	modified:   lib/base/Controller.php
+	modified:   web/index.php
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+	.DS_Store
+	ReadBeforeProject.pdf
+	app/.DS_Store
+	app/controllers/TaskController.php
+	app/models/aaaBackendTest.php
+	app/models/programmer.class.php
+	app/models/programmers.json
+	app/models/project.class.php
+	app/models/projects.json
+	app/models/task.class.php
+	app/models/task_kind.class.php
+	app/models/task_manager.class.php
+	app/models/task_status.class.php
+	app/models/tasks.json
+	app/views/layouts/head.php
+	app/views/layouts/header.php
+	app/views/scripts/crud_task/
+	app/views/scripts/view_column_kind.php
+	app/views/scripts/view_column_progress.php
+	app/views/scripts/view_grid.php
+	web/.DS_Store
+	web/stylesheets/styles.css
+
+frankpulidoalvarez@Franks-iMac sprint3_developers % git branch
+  develop
+* feature/dna
+  feature/frontoffice
+  feature/programmer
+  feature/project
+  feature/task-manager
+  main
+frankpulidoalvarez@Franks-iMac sprint3_developers % git commit -m "first commit of dna files on feature branch"
+[feature/dna ff546e9] first commit of dna files on feature branch
+ 4 files changed, 99 insertions(+), 4 deletions(-)
+frankpulidoalvarez@Franks-iMac sprint3_developers % git status
+On branch feature/dna
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+	.DS_Store
+	ReadBeforeProject.pdf
+	app/.DS_Store
+	app/controllers/TaskController.php
+	app/models/aaaBackendTest.php
+	app/models/programmer.class.php
+	app/models/programmers.json
+	app/models/project.class.php
+	app/models/projects.json
+	app/models/task.class.php
+	app/models/task_kind.class.php
+	app/models/task_manager.class.php
+	app/models/task_status.class.php
+	app/models/tasks.json
+	app/views/layouts/head.php
+	app/views/layouts/header.php
+	app/views/scripts/crud_task/
+	app/views/scripts/view_column_kind.php
+	app/views/scripts/view_column_progress.php
+	app/views/scripts/view_grid.php
+	web/.DS_Store
+	web/stylesheets/styles.css
+
+nothing added to commit but untracked files present (use "git add" to track)
+frankpulidoalvarez@Franks-iMac sprint3_developers % git log --oneline
+ff546e9 (HEAD -> feature/dna) first commit of dna files on feature branch
+d9c2061 (origin/main, origin/develop, main, feature/task-manager, feature/project, feature/programmer, feature/frontoffice, develop) Update README.md
+187bbbf first commit in MVC project
+frankpulidoalvarez@Franks-iMac sprint3_developers % git checkout develop
+Switched to branch 'develop'
+frankpulidoalvarez@Franks-iMac sprint3_developers % branch
+zsh: command not found: branch
+frankpulidoalvarez@Franks-iMac sprint3_developers % git branch
+* develop
+  feature/dna
+  feature/frontoffice
+  feature/programmer
+  feature/project
+  feature/task-manager
+  main
+frankpulidoalvarez@Franks-iMac sprint3_developers % git checkout feature/frontoffice
+Switched to branch 'feature/frontoffice'
+frankpulidoalvarez@Franks-iMac sprint3_developers % git status
+On branch feature/frontoffice
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+	.DS_Store
+	ReadBeforeProject.pdf
+	app/.DS_Store
+	app/controllers/TaskController.php
+	app/models/aaaBackendTest.php
+	app/models/programmer.class.php
+	app/models/programmers.json
+	app/models/project.class.php
+	app/models/projects.json
+	app/models/task.class.php
+	app/models/task_kind.class.php
+	app/models/task_manager.class.php
+	app/models/task_status.class.php
+	app/models/tasks.json
+	app/views/layouts/head.php
+	app/views/layouts/header.php
+	app/views/scripts/crud_task/
+	app/views/scripts/view_column_kind.php
+	app/views/scripts/view_column_progress.php
+	app/views/scripts/view_grid.php
+	web/.DS_Store
+	web/stylesheets/styles.css
+
+nothing added to commit but untracked files present (use "git add" to track)
+frankpulidoalvarez@Franks-iMac sprint3_developers % git add app/views/layouts/head.php
+frankpulidoalvarez@Franks-iMac sprint3_developers % git add app/views/layouts/header.php
+frankpulidoalvarez@Franks-iMac sprint3_developers % git add web/stylesheets/styles.css
+frankpulidoalvarez@Franks-iMac sprint3_developers % git add app/views/scripts/view_column_kind.php
+frankpulidoalvarez@Franks-iMac sprint3_developers % git add app/views/scripts/view_column_progress.php
+frankpulidoalvarez@Franks-iMac sprint3_developers % git add app/views/scripts/view_grid.php
+frankpulidoalvarez@Franks-iMac sprint3_developers % git status
+On branch feature/frontoffice
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+	new file:   app/views/layouts/head.php
+	new file:   app/views/layouts/header.php
+	new file:   app/views/scripts/view_column_kind.php
+	new file:   app/views/scripts/view_column_progress.php
+	new file:   app/views/scripts/view_grid.php
+	new file:   web/stylesheets/styles.css
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+	.DS_Store
+	ReadBeforeProject.pdf
+	app/.DS_Store
+	app/controllers/TaskController.php
+	app/models/aaaBackendTest.php
+	app/models/programmer.class.php
+	app/models/programmers.json
+	app/models/project.class.php
+	app/models/projects.json
+	app/models/task.class.php
+	app/models/task_kind.class.php
+	app/models/task_manager.class.php
+	app/models/task_status.class.php
+	app/models/tasks.json
+	app/views/scripts/crud_task/
+	web/.DS_Store
+
+frankpulidoalvarez@Franks-iMac sprint3_developers % git commit -m "first commit of feature frontoffice"
+[feature/frontoffice 7d58b17] first commit of feature frontoffice
+ 6 files changed, 522 insertions(+)
+ create mode 100644 app/views/layouts/head.php
+ create mode 100644 app/views/layouts/header.php
+ create mode 100644 app/views/scripts/view_column_kind.php
+ create mode 100644 app/views/scripts/view_column_progress.php
+ create mode 100644 app/views/scripts/view_grid.php
+ create mode 100644 web/stylesheets/styles.css
+frankpulidoalvarez@Franks-iMac sprint3_developers % git status
+On branch feature/frontoffice
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+	.DS_Store
+	ReadBeforeProject.pdf
+	app/.DS_Store
+	app/controllers/TaskController.php
+	app/models/aaaBackendTest.php
+	app/models/programmer.class.php
+	app/models/programmers.json
+	app/models/project.class.php
+	app/models/projects.json
+	app/models/task.class.php
+	app/models/task_kind.class.php
+	app/models/task_manager.class.php
+	app/models/task_status.class.php
+	app/models/tasks.json
+	app/views/scripts/crud_task/
+	web/.DS_Store
+
+nothing added to commit but untracked files present (use "git add" to track)
+frankpulidoalvarez@Franks-iMac sprint3_developers % git checkout develop
+Switched to branch 'develop'
+frankpulidoalvarez@Franks-iMac sprint3_developers % git branch
+* develop
+  feature/dna
+  feature/frontoffice
+  feature/programmer
+  feature/project
+  feature/task-manager
+  main
+frankpulidoalvarez@Franks-iMac sprint3_developers % git checkout feature/task-manager
+Switched to branch 'feature/task-manager'
+frankpulidoalvarez@Franks-iMac sprint3_developers % git add app/models/task_manager.class.php
+frankpulidoalvarez@Franks-iMac sprint3_developers % git add app/controllers/TaskController.php
+frankpulidoalvarez@Franks-iMac sprint3_developers % git add app/models/task.class.php
+frankpulidoalvarez@Franks-iMac sprint3_developers % git add app/models/tasks.json
+frankpulidoalvarez@Franks-iMac sprint3_developers % git add app/views/scripts/crud_task/
+frankpulidoalvarez@Franks-iMac sprint3_developers % git add app/models/task_kind.class.php
+frankpulidoalvarez@Franks-iMac sprint3_developers % git add app/models/task_status.class.php
+frankpulidoalvarez@Franks-iMac sprint3_developers % git status
+On branch feature/task-manager
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+	new file:   app/controllers/TaskController.php
+	new file:   app/models/task.class.php
+	new file:   app/models/task_kind.class.php
+	new file:   app/models/task_manager.class.php
+	new file:   app/models/task_status.class.php
+	new file:   app/models/tasks.json
+	new file:   app/views/scripts/crud_task/create.php
+	new file:   app/views/scripts/crud_task/delete.php
+	new file:   app/views/scripts/crud_task/show.php
+	new file:   app/views/scripts/crud_task/update.php
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+	.DS_Store
+	ReadBeforeProject.pdf
+	app/.DS_Store
+	app/models/aaaBackendTest.php
+	app/models/programmer.class.php
+	app/models/programmers.json
+	app/models/project.class.php
+	app/models/projects.json
+	web/.DS_Store
+
+frankpulidoalvarez@Franks-iMac sprint3_developers % git add app/models/aaaBackendTest.php
+frankpulidoalvarez@Franks-iMac sprint3_developers % git status
+On branch feature/task-manager
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+	new file:   app/controllers/TaskController.php
+	new file:   app/models/aaaBackendTest.php
+	new file:   app/models/task.class.php
+	new file:   app/models/task_kind.class.php
+	new file:   app/models/task_manager.class.php
+	new file:   app/models/task_status.class.php
+	new file:   app/models/tasks.json
+	new file:   app/views/scripts/crud_task/create.php
+	new file:   app/views/scripts/crud_task/delete.php
+	new file:   app/views/scripts/crud_task/show.php
+	new file:   app/views/scripts/crud_task/update.php
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+	.DS_Store
+	ReadBeforeProject.pdf
+	app/.DS_Store
+	app/models/programmer.class.php
+	app/models/programmers.json
+	app/models/project.class.php
+	app/models/projects.json
+	web/.DS_Store
+
+frankpulidoalvarez@Franks-iMac sprint3_developers % git commit -m "first commit task manager feature" 
+[feature/task-manager 1a59223] first commit task manager feature
+ 11 files changed, 1048 insertions(+)
+ create mode 100644 app/controllers/TaskController.php
+ create mode 100644 app/models/aaaBackendTest.php
+ create mode 100644 app/models/task.class.php
+ create mode 100644 app/models/task_kind.class.php
+ create mode 100644 app/models/task_manager.class.php
+ create mode 100644 app/models/task_status.class.php
+ create mode 100644 app/models/tasks.json
+ create mode 100644 app/views/scripts/crud_task/create.php
+ create mode 100644 app/views/scripts/crud_task/delete.php
+ create mode 100644 app/views/scripts/crud_task/show.php
+ create mode 100644 app/views/scripts/crud_task/update.php
+frankpulidoalvarez@Franks-iMac sprint3_developers % git checkout develop
+Switched to branch 'develop'
+frankpulidoalvarez@Franks-iMac sprint3_developers % git checkout feature/programmer
+Switched to branch 'feature/programmer'
+frankpulidoalvarez@Franks-iMac sprint3_developers % git add app/models/programmer.class.php
+frankpulidoalvarez@Franks-iMac sprint3_developers % git add app/models/programmers.json
+frankpulidoalvarez@Franks-iMac sprint3_developers % git status
+On branch feature/programmer
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+	new file:   app/models/programmer.class.php
+	new file:   app/models/programmers.json
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+	.DS_Store
+	ReadBeforeProject.pdf
+	app/.DS_Store
+	app/models/project.class.php
+	app/models/projects.json
+	web/.DS_Store
+
+frankpulidoalvarez@Franks-iMac sprint3_developers % git commit -m "first commit programmer feature"
+[feature/programmer 8e3ea6e] first commit programmer feature
+ 2 files changed, 144 insertions(+)
+ create mode 100644 app/models/programmer.class.php
+ create mode 100644 app/models/programmers.json
+frankpulidoalvarez@Franks-iMac sprint3_developers % git branch
+  develop
+  feature/dna
+  feature/frontoffice
+* feature/programmer
+  feature/project
+  feature/task-manager
+  main
+frankpulidoalvarez@Franks-iMac sprint3_developers % git checkout develop
+Switched to branch 'develop'
+frankpulidoalvarez@Franks-iMac sprint3_developers % git checkout feature/project
+Switched to branch 'feature/project'
+frankpulidoalvarez@Franks-iMac sprint3_developers % git status
+On branch feature/project
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+	.DS_Store
+	ReadBeforeProject.pdf
+	app/.DS_Store
+	app/models/project.class.php
+	app/models/projects.json
+	web/.DS_Store
+
+nothing added to commit but untracked files present (use "git add" to track)
+frankpulidoalvarez@Franks-iMac sprint3_developers % git add app/models/project.class.php
+frankpulidoalvarez@Franks-iMac sprint3_developers % git add app/models/projects.json
+frankpulidoalvarez@Franks-iMac sprint3_developers % git status
+On branch feature/project
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+	new file:   app/models/project.class.php
+	new file:   app/models/projects.json
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+	.DS_Store
+	ReadBeforeProject.pdf
+	app/.DS_Store
+	web/.DS_Store
+
+frankpulidoalvarez@Franks-iMac sprint3_developers % git commit -m "first commit project feature"
+[feature/project 25c68a7] first commit project feature
+ 2 files changed, 162 insertions(+)
+ create mode 100644 app/models/project.class.php
+ create mode 100644 app/models/projects.json
+frankpulidoalvarez@Franks-iMac sprint3_developers % git checkout develop
+Switched to branch 'develop'
+frankpulidoalvarez@Franks-iMac sprint3_developers % git branch
+* develop
+  feature/dna
+  feature/frontoffice
+  feature/programmer
+  feature/project
+  feature/task-manager
+  main
+frankpulidoalvarez@Franks-iMac sprint3_developers % git checkout feature/task-manager
+Switched to branch 'feature/task-manager'
+frankpulidoalvarez@Franks-iMac sprint3_developers % git push origin feature/task-manager
+Enumerating objects: 25, done.
+Counting objects: 100% (25/25), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (19/19), done.
+Writing objects: 100% (19/19), 10.91 KiB | 5.45 MiB/s, done.
+Total 19 (delta 2), reused 0 (delta 0), pack-reused 0 (from 0)
+remote: Resolving deltas: 100% (2/2), completed with 2 local objects.
+remote: 
+remote: Create a pull request for 'feature/task-manager' on GitHub by visiting:
+remote:      https://github.com/frankpulido/IT-PHP-Sprint3-DevelopersTeam/pull/new/feature/task-manager
+remote: 
+To github.com:frankpulido/IT-PHP-Sprint3-DevelopersTeam.git
+ * [new branch]      feature/task-manager -> feature/task-manager
+frankpulidoalvarez@Franks-iMac sprint3_developers % git branch
+  develop
+  feature/dna
+  feature/frontoffice
+  feature/programmer
+  feature/project
+* feature/task-manager
+  main
+frankpulidoalvarez@Franks-iMac sprint3_developers % git checkout feature/dna
+Switched to branch 'feature/dna'
+frankpulidoalvarez@Franks-iMac sprint3_developers % git push origin feature/dna
+Enumerating objects: 23, done.
+Counting objects: 100% (23/23), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (12/12), done.
+Writing objects: 100% (12/12), 2.57 KiB | 2.57 MiB/s, done.
+Total 12 (delta 5), reused 0 (delta 0), pack-reused 0 (from 0)
+remote: Resolving deltas: 100% (5/5), completed with 5 local objects.
+remote: 
+remote: Create a pull request for 'feature/dna' on GitHub by visiting:
+remote:      https://github.com/frankpulido/IT-PHP-Sprint3-DevelopersTeam/pull/new/feature/dna
+remote: 
+To github.com:frankpulido/IT-PHP-Sprint3-DevelopersTeam.git
+ * [new branch]      feature/dna -> feature/dna
+frankpulidoalvarez@Franks-iMac sprint3_developers % git branch
+  develop
+* feature/dna
+  feature/frontoffice
+  feature/programmer
+  feature/project
+  feature/task-manager
+  main
+frankpulidoalvarez@Franks-iMac sprint3_developers % git checkout feature/frontoffice
+Switched to branch 'feature/frontoffice'
+frankpulidoalvarez@Franks-iMac sprint3_developers % git push origin feature/frontoffice
+Enumerating objects: 21, done.
+Counting objects: 100% (21/21), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (14/14), done.
+Writing objects: 100% (14/14), 5.38 KiB | 2.69 MiB/s, done.
+Total 14 (delta 5), reused 0 (delta 0), pack-reused 0 (from 0)
+remote: Resolving deltas: 100% (5/5), completed with 3 local objects.
+remote: 
+remote: Create a pull request for 'feature/frontoffice' on GitHub by visiting:
+remote:      https://github.com/frankpulido/IT-PHP-Sprint3-DevelopersTeam/pull/new/feature/frontoffice
+remote: 
+To github.com:frankpulido/IT-PHP-Sprint3-DevelopersTeam.git
+ * [new branch]      feature/frontoffice -> feature/frontoffice
+frankpulidoalvarez@Franks-iMac sprint3_developers % git branch
+  develop
+  feature/dna
+* feature/frontoffice
+  feature/programmer
+  feature/project
+  feature/task-manager
+  main
+frankpulidoalvarez@Franks-iMac sprint3_developers % git checkout feature/programmer
+Switched to branch 'feature/programmer'
+frankpulidoalvarez@Franks-iMac sprint3_developers % git push origin feature/programmer
+Enumerating objects: 9, done.
+Counting objects: 100% (9/9), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (6/6), done.
+Writing objects: 100% (6/6), 1.49 KiB | 1.49 MiB/s, done.
+Total 6 (delta 1), reused 0 (delta 0), pack-reused 0 (from 0)
+remote: Resolving deltas: 100% (1/1), completed with 1 local object.
+remote: 
+remote: Create a pull request for 'feature/programmer' on GitHub by visiting:
+remote:      https://github.com/frankpulido/IT-PHP-Sprint3-DevelopersTeam/pull/new/feature/programmer
+remote: 
+To github.com:frankpulido/IT-PHP-Sprint3-DevelopersTeam.git
+ * [new branch]      feature/programmer -> feature/programmer
+frankpulidoalvarez@Franks-iMac sprint3_developers % git branch
+  develop
+  feature/dna
+  feature/frontoffice
+* feature/programmer
+  feature/project
+  feature/task-manager
+  main
+frankpulidoalvarez@Franks-iMac sprint3_developers % git checkout feature/project
+Switched to branch 'feature/project'
+frankpulidoalvarez@Franks-iMac sprint3_developers % git push origin feature/project
+Enumerating objects: 9, done.
+Counting objects: 100% (9/9), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (6/6), done.
+Writing objects: 100% (6/6), 1.71 KiB | 1.71 MiB/s, done.
+Total 6 (delta 1), reused 0 (delta 0), pack-reused 0 (from 0)
+remote: Resolving deltas: 100% (1/1), completed with 1 local object.
+remote: 
+remote: Create a pull request for 'feature/project' on GitHub by visiting:
+remote:      https://github.com/frankpulido/IT-PHP-Sprint3-DevelopersTeam/pull/new/feature/project
+remote: 
+To github.com:frankpulido/IT-PHP-Sprint3-DevelopersTeam.git
+ * [new branch]      feature/project -> feature/project
+frankpulidoalvarez@Franks-iMac sprint3_developers % git status
+On branch feature/project
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+	.DS_Store
+	ReadBeforeProject.pdf
+	app/.DS_Store
+	web/.DS_Store
+
+nothing added to commit but untracked files present (use "git add" to track)
+frankpulidoalvarez@Franks-iMac sprint3_developers % git branch
+  develop
+  feature/dna
+  feature/frontoffice
+  feature/programmer
+* feature/project
+  feature/task-manager
+  main
+frankpulidoalvarez@Franks-iMac sprint3_developers % 
+  [Restored 11 Nov 2024 at 07:48:07]
+Last login: Mon Nov 11 07:48:07 on ttys005
+Restored session: Mon Nov 11 02:56:12 CET 2024
+frankpulidoalvarez@Franks-iMac sprint3_developers % 

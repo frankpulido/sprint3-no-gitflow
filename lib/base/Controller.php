@@ -76,12 +76,18 @@ class Controller
 	 * @param string $action
 	 * @return string the path to the view script
 	 */
+	
 	protected function _getViewScript($action)
 	{
 		// fetches the current controller executed
 		$controller = get_class($this);
 		// removes the "Controller" part and adds the action name to the path
-		$script = strtolower(substr($controller, 0, -10) . '/' . $action . '.phtml');
+		$script = strtolower(substr($controller, 0, -10) . '/' . $action . '.php'); // I changed extension of views to php
+		//$script = strtolower(substr($controller, 0, -10) . '/' . $action . '.phtml'); // This is the original code
+
+		// Debug output to verify the generated path (we are getting a warning)
+		echo "Generated view script path: " . $script . "<br>";
+		
 		// returns the script to render
 		return $script;
 	}

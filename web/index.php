@@ -1,4 +1,6 @@
 <?php
+//require_once "../app/models/task_manager.class.php"; // I am adding Singleton in the single-entry point of the App
+//$taskManager = TaskManager::getInstance();
 
 error_reporting(E_ALL|E_STRICT);
 ini_set('display_errors', 1);
@@ -46,3 +48,4 @@ spl_autoload_register('autoloader');
 
 $router = new Router();
 $router->execute($routes);
+?>
