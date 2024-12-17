@@ -6,32 +6,24 @@ error_reporting(E_ALL);
 ?>
 
 <?php
-include __DIR__ . '../../layouts/head.php'; // This class is not in MODELS folder
-require_once "../../controllers/ApplicationController.php";
-require_once "../../controllers/TaskController.php";
-require_once "../../models/task_manager.class.php"; // This class IS IN MODELS folder, but autoloader doesn't accept underscores
-//require_once "../../../models/task.class.php"; // All classes in MODELS folder are autoloaded (unless autoloader doesn't like them... e.g. having underscores)
+include __DIR__ . '../../../layouts/head.php';
+require_once __DIR__ . '/../../../controllers/TaskController.php';
+require_once __DIR__ . '/../../../models/task_manager.class.php';
+// This class IS IN MODELS folder, but autoloader doesn't accept underscores
+// All classes in MODELS folder are autoloaded (unless autoloader doesn't like them... e.g. having underscores)
 ?>
 
 <?php
-session_start(); // To retrieve the session variable that returns the Task created by TaskManager through the controller TaskController
+if (session_status() !== PHP_SESSION_ACTIVE) {
+    session_start();
+} // To retrieve the session variable that returns the Task created by TaskManager through the controller TaskController
 
 // Check if form has been submitted
-
-if ($_SERVER['REQUEST_METHOD'] === 'POST') {
-    // Call the ApplicationController directly since I moved createAction to it
-    $applicationController = new ApplicationController();
-    $applicationController->execute('create');
-    exit(); // Optional: avoid rendering the rest of create.php after execution
-}
-
-/* I am trying to make createAction() work in ApplicationController instead of TaskController
 if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     $taskController = new TaskController();
     $taskController->execute('create');
     exit(); // Optional: to avoid rendering the rest of create.php after execution
 }
-*/
 
 $taskManager = TaskManager::getInstance();
 $projects = $taskManager->getAllProjects(); // Fetch existing projects through TaskManager
@@ -51,8 +43,8 @@ $programmers = $taskManager->getAllProgrammers(); // Fetch existing programmers 
 
 <h2 class="rajdhani-light" style="margin-left: 15px;">CREATE NEW TASK</h2>
 
-<form action="create.php" method="post"> <!-- THE FORM ACTION POST TO ITSELF TO EXECUTE IF IN LINE 18 / IF REQUEST = POST THEN $taskController->execute('create'); -->
-<!-- <form action="../../../controllers/TaskController.php?action=create" method="post"> -->
+<form action="<?php echo WEB_ROOT; ?>/task/create" method="post">
+<!-- THE FORM ACTION POST TO ITSELF TO EXECUTE IF IN LINE 18 / IF REQUEST = POST THEN $taskController->execute('create'); -->
 
     <!-- Project Selection Dropdown -->
     <div class="rajdhani-light" style="margin-bottom: 5px;">
@@ -103,7 +95,10 @@ $programmers = $taskManager->getAllProgrammers(); // Fetch existing programmers 
     <!-- Task Status Enum Dropdown : NO !!!! all Tasks are created as status PIPELINED -->
 
     <!-- Submit Button -->
-    <button type="submit" class="rajdhani-light" style="align-self: flex-start; padding: 10px 20px; margin: 0px 0px 25px 15px">CREATE TASK</button>
+     <div class="rajdhani-light" style="margin-bottom: 5px;">
+        <button type="submit" class="rajdhani-light" style="align-self: flex-start; padding: 10px 20px; margin: 0px 0px 20px 0px">CREATE TASK</button>
+     </div>
+    <!--<button type="submit" class="rajdhani-light" style="align-self: flex-start; padding: 10px 20px; margin: 0px 0px 25px 15px">CREATE TASK</button>-->
 </form>
 
 <!-- Display the created task if available -->

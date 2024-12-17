@@ -68,7 +68,11 @@ class Controller
 		$this->afterFilters();
 		
 		// renders the view
-		$this->view->render($this->_getViewScript($action));
+		// Only call _getViewScript if no explicit render() has occurred
+		if (empty($this->view->content())) {
+			$this->view->render($this->_getViewScript($action));
+		}
+		//$this->view->render($this->_getViewScript($action));
 	}
 	
 	/**

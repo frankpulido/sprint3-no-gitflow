@@ -7,9 +7,7 @@ class TaskController extends Controller {
         
         if (ob_get_level()) {
             ob_end_flush();
-        }
-        //echo "TaskController reached<br>"; // Debugging (only reached when using commented LINE 3 in header.php : $taskController->execute('create');)
-        
+        }        
 
         // Ensure that the form data has been submitted
         if ($_SERVER['REQUEST_METHOD'] === 'POST') {
@@ -21,21 +19,25 @@ class TaskController extends Controller {
                 'task_description' => $_POST['task_description'] ?? ''
             ];
 
+            //print_r($taskData);
+
             // Call the TaskManager's createTask method
             $taskManager = TaskManager::getInstance();
             $task = $taskManager->createTask($taskData);
-
+            
             // Store the created task in a session (or pass it via query string)
             $_SESSION['created_task'] = $task;
 
             // Redirect (refresh) the page
             //header("Location: {$_SERVER['REQUEST_URI']}");
+            //header("Location: create.php");
             header("Refresh:0");
             exit();
         }
+        
 
         // Render the create task form view
-        $this->view->render('crud_task/create');
+        $this->view->render('crudtask/create.php');
     }
 
     public function getAllAction(){
@@ -71,7 +73,7 @@ class TaskController extends Controller {
         }
     
         // Render the show task view
-        $this->view->render('crud_task/show');
+        $this->view->render('crudtask/show.php');
     }
     
 }

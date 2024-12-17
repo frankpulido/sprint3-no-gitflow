@@ -7,9 +7,10 @@ error_reporting(E_ALL);
 
 <?php
 include __DIR__ . '../../../layouts/head.php'; // This class is not in MODELS folder
-require_once __DIR__ . '../../../../controllers/TaskController.php';
-require_once "../../../models/task_manager.class.php"; // This class IS IN MODELS folder, but autoloader doesn't accept underscores
-//require_once "../../../models/task.class.php"; // All classes in MODELS folder are autoloaded (unless autoloader doesn't like them... e.g. having underscores)
+require_once __DIR__ . '/../../../controllers/TaskController.php';
+require_once __DIR__ . '/../../../models/task_manager.class.php';
+// This class IS IN MODELS folder, but autoloader doesn't accept underscores
+// All classes in MODELS folder are autoloaded (unless autoloader doesn't like them... e.g. having underscores)
 ?>
 
 <?php
@@ -21,12 +22,15 @@ $task = $taskManager->getTaskById($taskId); // Assuming $taskId is passed to thi
 ?>
 
 <?php
-session_start();
+if (session_status() !== PHP_SESSION_ACTIVE) {
+    session_start();
+} // To retrieve the session variable that returns the Task created by TaskManager through the controller TaskController
+
 // Instantiate either class OR controller (not both... We are supposed to use TaskController, but I cannot make it work)
 $taskManager = TaskManager::getInstance();
 //$taskController = new TaskController();
 
-// Get all tasks using the TaskManager singleton OR TaskController singleton
+// Get all tasks using the TaskManager singleton OR TaskController
 $tasks = $taskManager->getAllTasks(); // This will return an array of tasks
 //$tasks = $taskController->getAllAction();
 

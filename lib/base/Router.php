@@ -11,7 +11,9 @@ class Router
 	 */
 	public function execute($routes)
 	{
+		//echo "Processing route: " . $_SERVER['REQUEST_URI'] . "<br>";
 		// tries to find the route and run the given action on the controller
+
 		try {
 			// the controller and action to execute
 			$controller = null;
@@ -61,7 +63,7 @@ class Router
 		$uri = explode('?',$_SERVER['REQUEST_URI']);
 		$uri = $uri[0];
 		$uri = substr($uri, strlen(WEB_ROOT));
-		
+		// echo "Resolved URI: " . $uri . "<br>";
 		return $uri;
 	}
 	

@@ -8,9 +8,9 @@ $taskController = new TaskController();
 
     <section class="rajdhani-light">
         <nav class="views-menu">
-            <a href="http://localhost/developers_nivel1/web/" class="menu-option" style="background-color: aliceblue;">GRID ALL VIEW</a> <!-- ELIMINATE STYLE WHEN ALL OPTIONS ARE ACTIVE -->
-            <a href="http://localhost/developers_nivel1/web/kind" class="menu-option" style="background-color: aliceblue;">BY TASK KIND VIEW</a> <!-- ELIMINATE STYLE WHEN ALL OPTIONS ARE ACTIVE -->
-            <a href="http://localhost/developers_nivel1/web/progress" class="menu-option" style="background-color: aliceblue;">BY TASK PROGRESS VIEW</a> <!-- ELIMINATE STYLE WHEN ALL OPTIONS ARE ACTIVE -->
+            <a href="<?php echo WEB_ROOT; ?>/grid" class="menu-option" style="background-color: aliceblue;">GRID ALL VIEW</a> <!-- ELIMINATE STYLE WHEN ALL OPTIONS ARE ACTIVE -->
+            <a href="<?php echo WEB_ROOT; ?>/kind" class="menu-option" style="background-color: aliceblue;">BY TASK KIND VIEW</a> <!-- ELIMINATE STYLE WHEN ALL OPTIONS ARE ACTIVE -->
+            <a href="<?php echo WEB_ROOT; ?>/progress" class="menu-option" style="background-color: aliceblue;">BY TASK PROGRESS VIEW</a> <!-- ELIMINATE STYLE WHEN ALL OPTIONS ARE ACTIVE -->
         </nav>
     </section>
 
@@ -43,23 +43,23 @@ $taskController = new TaskController();
         let iframe = document.getElementById("crudIframe");
         switch(action) {
             case 'create_task':
-                iframe.src = "/developers_nivel1/app/views/scripts/crud_task/create.php"; // NEW TASK
+                iframe.src = "<?php echo WEB_ROOT; ?>/task/create"; // NEW TASK
                 //iframe.src = "/developers_nivel1/app/views/scripts/create.php"; // NEW TASK - Moving create.php to folder scripts didn't solved fatal error
                 break;
             case 'create_project':
-                iframe.src = "/developers_nivel1/app/views/scripts/crud_project/create.php";  // new project (future development)
+                iframe.src = "";  // new project (future development)
                 break;
             case 'create_programmer':
-                iframe.src = "/developers_nivel1/app/views/scripts/crud_programmer/create.php";  // new programmer (future development)
+                iframe.src = "";  // new programmer (future development)
                 break;
             case 'search_update_delete_task':
-                iframe.src = "/developers_nivel1/app/views/scripts/crud_task/show.php";  // SEARCH->UPDATE/DELETE TASK (UPDATE/DELETE are triggered within SEARCH)
+                iframe.src = "<?php echo WEB_ROOT; ?>/task/show";  // SEARCH->UPDATE/DELETE TASK (UPDATE/DELETE are triggered within SEARCH)
                 break;
             case 'search_update_delete_project':
-                iframe.src = "/developers_nivel1/app/views/scripts/crud_project/show.php";  // search/update/delete project (future development)
+                iframe.src = "";  // search/update/delete project (future development)
                 break;
             case 'search_update_delete_programmer':
-                iframe.src = "/developers_nivel1/app/views/scripts/crud_programmer/show.php";  // search/update/delete programmer (future development)
+                iframe.src = "";  // search/update/delete programmer (future development)
                 break;
             default:
                 iframe.src = "";
