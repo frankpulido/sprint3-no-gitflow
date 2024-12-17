@@ -102,23 +102,18 @@ $programmers = $taskManager->getAllProgrammers(); // Fetch existing programmers 
 </form>
 
 <!-- Display the created task if available -->
+
 <?php
-if (isset($_SESSION['created_task'])):
+if (isset($_SESSION['created_task'])) {
     $createdTask = $_SESSION['created_task'];
-    // Check if it's an object and convert to array
-    if (is_object($createdTask)) {
-        $createdTask = (array) $createdTask;
-    }
-    echo '<article class="grid-item">';
-    echo "<p><b>TASK ID</b>  : <b>" . htmlspecialchars($createdTask['id_task']) . "</b> | Project ID : " . htmlspecialchars($createdTask['project_id']) . " | Programmer ID : " . htmlspecialchars($createdTask['programmer_id']) . "</p>";
-    echo "<p><b>" . htmlspecialchars($createdTask['task_kind']) . "</b> | Description : " . htmlspecialchars($createdTask['task_description']) . "</p>";
-    echo "<p>Task progress : " . htmlspecialchars($createdTask['task_status']) . "</p>";
-    
-    if (!empty($createdTask['dateCreated'])) {
-        echo "<p>Pipelined : " . htmlspecialchars($createdTask['dateCreated']) . "</p>";
-    }
+    echo '<article class="grid-item rajdhani-light">';
+    echo "<p>Your new task has been successfully created!</p>";
+    echo "<p><b>TASK ID</b>  : <b>" . htmlspecialchars($createdTask->getIdTask()) . "</b> | Project ID : " . htmlspecialchars($createdTask->getProjectId()) . " | Programmer ID : " . htmlspecialchars($createdTask->getProgrammerId()) . "</p>";
+    echo "<p><b>" . htmlspecialchars($createdTask->getTaskKind()->value) . "</b> | Task Description : " . htmlspecialchars($createdTask->getTaskDescription()) . "</p>";
+    echo "<p>Task progress : " . htmlspecialchars($createdTask->getTaskStatus()->value) . "</p>";
+    echo '</article>';
     unset($_SESSION['created_task']); // Clear the session variable
-endif;
+}
 ?>
 
 </body>

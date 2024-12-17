@@ -1,4 +1,19 @@
 <?php
+require_once __DIR__ . '/../app/models/task.class.php';
+require_once __DIR__ . '/../app/models/task_kind.class.php';
+require_once __DIR__ . '/../app/models/task_status.class.php';
+require_once __DIR__ . '/../app/models/programmer.class.php';
+require_once __DIR__ . '/../app/models/project.class.php';
+require_once __DIR__ . '/../app/models/task_manager.class.php';
+require_once __DIR__ . '/../lib/base/Controller.php';
+require_once __DIR__ . '/../lib/base/Model.php';
+require_once __DIR__ . '/../lib/base/Request.php';
+require_once __DIR__ . '/../lib/base/Router.php';
+require_once __DIR__ . '/../lib/base/View.php';
+require_once __DIR__ . '/../app/controllers/ApplicationController.php';
+require_once __DIR__ . '/../app/controllers/ErrorController.php';
+require_once __DIR__ . '/../app/controllers/TaskController.php';
+require_once __DIR__ . '/../app/controllers/TestController.php';
 //require_once "../app/models/task_manager.class.php"; // I am adding Singleton in the single-entry point of the App
 //$taskManager = TaskManager::getInstance();
 
@@ -44,7 +59,7 @@ function autoloader($className) {
 }
 
 // activates the autoloader
-spl_autoload_register('autoloader');
+//spl_autoload_register('autoloader'); // Uncomment this when renaming classes
 
 $router = new Router();
 $router->execute($routes);

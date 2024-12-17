@@ -1,13 +1,12 @@
 <?php
 require_once __DIR__ . '../../../lib/base/Controller.php';
+require_once __DIR__ . '../../models/task_manager.class.php';
 
 class TaskController extends Controller {
 
     public function createAction() {
         
-        if (ob_get_level()) {
-            ob_end_flush();
-        }        
+        //ob_start();       
 
         // Ensure that the form data has been submitted
         if ($_SERVER['REQUEST_METHOD'] === 'POST') {
@@ -19,8 +18,6 @@ class TaskController extends Controller {
                 'task_description' => $_POST['task_description'] ?? ''
             ];
 
-            //print_r($taskData);
-
             // Call the TaskManager's createTask method
             $taskManager = TaskManager::getInstance();
             $task = $taskManager->createTask($taskData);
@@ -28,16 +25,14 @@ class TaskController extends Controller {
             // Store the created task in a session (or pass it via query string)
             $_SESSION['created_task'] = $task;
 
-            // Redirect (refresh) the page
-            //header("Location: {$_SERVER['REQUEST_URI']}");
-            //header("Location: create.php");
-            header("Refresh:0");
+            //header("Refresh:0");
+            header("Location: " . $_SERVER['REQUEST_URI']);
             exit();
         }
-        
 
         // Render the create task form view
         $this->view->render('crudtask/create.php');
+        //ob_end_flush(); // Flush output buffer at the end
     }
 
     public function getAllAction(){

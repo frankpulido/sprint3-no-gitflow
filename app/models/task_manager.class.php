@@ -54,10 +54,23 @@ final class TaskManager {
 
     // Generate unique IDs based on existing entries in JSON files
 
+    /*
     private function generateUniqueId(string $filePath, string $idKey): int {
         $data = $this->loadData($filePath);
-        return count($data) ? max(array_column($data, $idKey)) + 1 : 1;
+        return count($data) ? (int) max(array_column($data, $idKey)) + 1 : 1;
     }
+    */
+
+    private function generateUniqueId(string $filePath, string $idKey): int {
+        $data = $this->loadData($filePath);
+        if (!empty($data)) {
+            $ids = array_map(fn($task) => (int)$task[$idKey], $data);
+            $maxId = max($ids); // Find the highest ID
+            return $maxId + 1;  // Increment by 1
+        }
+        return 1; // Start from 1 if no data exists
+    }
+    
 
     /* ********************************* TASK CRUD ********************************* */
 
@@ -80,20 +93,26 @@ final class TaskManager {
         $this->tasks = $this->loadTasks();
 
         // Validate ENUM-like fields (e.g., task_kind and task_status)
+        $validTaskKinds = array_map(fn($case) => $case->value, TaskKind::cases());
+        if (!in_array($taskData['task_kind'], $validTaskKinds)) {
+            throw new InvalidArgumentException("Invalid task kind");
+        }
+        /*
         if (!in_array($taskData['task_kind'], TaskKind::cases())) {
             throw new InvalidArgumentException("Invalid task kind");
         }
+        */
         
         // Initialize new task
         $task = new Task(
-            $taskData['project_id'],
-            $taskData['programmer_id'],
-            $taskData['task_kind'],
+            (int) $taskData['project_id'],
+            (int) $taskData['programmer_id'],
+            TaskKind::from($taskData['task_kind']),
             $taskData['task_description'] ?? '',
         );
 
         // generate unique ID
-        $uniqueId = $this->generateUniqueId('tasks.json', 'id_task');
+        $uniqueId = $this->generateUniqueId($this->filePathTasks, 'id_task');
         $task->setIdTask($uniqueId);
 
         // Add the task to the tasks array but not as an instance of Task

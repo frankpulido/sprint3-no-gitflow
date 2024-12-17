@@ -118,5 +118,77 @@
         "dateInit": "2024-05-05T11:00:00Z",
         "dateDelivered": "2024-05-10T15:30:00Z",
         "dateApproved": null
+    },
+    {
+        "id_task": 111,
+        "project_id": 8,
+        "programmer_id": 10,
+        "task_kind": "BACKOFFICE",
+        "task_status": "PIPELINED",
+        "task_description": "go alex",
+        "dateCreated": "2024-12-17T20:02:20+01:00",
+        "dateInit": null,
+        "dateDelivered": null,
+        "dateApproved": null
+    },
+    {
+        "id_task": 112,
+        "project_id": 1,
+        "programmer_id": 1,
+        "task_kind": "FRONTOFFICE",
+        "task_status": "PIPELINED",
+        "task_description": "mmmhhh",
+        "dateCreated": "2024-12-17T20:05:20+01:00",
+        "dateInit": null,
+        "dateDelivered": null,
+        "dateApproved": null
+    },
+    {
+        "id_task": 113,
+        "project_id": 1,
+        "programmer_id": 1,
+        "task_kind": "FRONTOFFICE",
+        "task_status": "PIPELINED",
+        "task_description": "klkk",
+        "dateCreated": "2024-12-17T20:05:38+01:00",
+        "dateInit": null,
+        "dateDelivered": null,
+        "dateApproved": null
+    },
+    {
+        "id_task": 114,
+        "project_id": 8,
+        "programmer_id": 3,
+        "task_kind": "FRONTOFFICE",
+        "task_status": "PIPELINED",
+        "task_description": "go richard",
+        "dateCreated": "2024-12-17T20:13:39+01:00",
+        "dateInit": null,
+        "dateDelivered": null,
+        "dateApproved": null
+    },
+    {
+        "id_task": 115,
+        "project_id": 2,
+        "programmer_id": 2,
+        "task_kind": "BACKOFFICE",
+        "task_status": "PIPELINED",
+        "task_description": "come john",
+        "dateCreated": "2024-12-17T20:14:29+01:00",
+        "dateInit": null,
+        "dateDelivered": null,
+        "dateApproved": null
+    },
+    {
+        "id_task": 116,
+        "project_id": 2,
+        "programmer_id": 2,
+        "task_kind": "BACKOFFICE",
+        "task_status": "PIPELINED",
+        "task_description": "you are right",
+        "dateCreated": "2024-12-17T20:14:55+01:00",
+        "dateInit": null,
+        "dateDelivered": null,
+        "dateApproved": null
     }
 ]
