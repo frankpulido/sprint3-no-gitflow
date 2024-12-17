@@ -75,6 +75,51 @@ class TaskController extends Controller {
         // Render the show task view
         $this->view->render('crudtask/show.php');
     }
+
+    public function updateAction() {
+        if ($_SERVER['REQUEST_METHOD'] === 'POST' && isset($_POST['id_task'])) {
+            $taskId = (int)$_POST['id_task'];
+            $updatedData = [
+                'task_description' => $_POST['task_name'] ?? '',
+                'assigned_programmer' => $_POST['assigned_programmer'] ?? '',
+                //'task_status' => isset($_POST['advance_status']) ? 'IN_PROGRESS' : ''
+            ];
+    
+            $taskManager = TaskManager::getInstance();
+            $success = $taskManager->updateTask($taskId, $updatedData);
+    
+            if ($success) {
+                echo "Task updated successfully!";
+            } else {
+                echo "Failed to update the task.";
+            }
+        }
+        $this->view->render('crudtask/update.php');
+    }
+    
+    public function deleteAction() {
+        //echo "Delete action triggered<br>";
+        //print_r($_POST); // Debugging: Check incoming POST data
+
+        if ($_SERVER['REQUEST_METHOD'] === 'POST' && isset($_POST['id_task'])) {
+            $taskId = (int)$_POST['id_task'];
+            $confirmation = $_POST['confirmation'] ?? '';
+    
+            if (strtolower($confirmation) === 'delete') {
+                $taskManager = TaskManager::getInstance();
+                $success = $taskManager->deleteTask($taskId);
+    
+                if ($success) {
+                    echo "Task deleted successfully!";
+                } else {
+                    echo "Failed to delete the task.";
+                }
+            } else {
+                echo "Confirmation failed. Task not deleted.";
+            }
+        }
+        $this->view->render('crudtask/delete.php');
+    }
     
 }
 ?>

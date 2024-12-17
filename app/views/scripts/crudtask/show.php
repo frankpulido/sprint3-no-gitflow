@@ -109,12 +109,12 @@ $task = $taskManager->getTaskById($taskId); // Assuming $taskId is passed to thi
 
 <div class="rajdhani-light" style="display: flex; align-items: flex-start; padding: 0px 10px 20px 15px;">
     <!-- UPDATE FORM -->
-    <form action="/task/update" method="post">
+    <form action="<?php echo WEB_ROOT; ?>/task/update" method="post">
         <input type="hidden" name="id_task" value="<?= htmlspecialchars($task['id_task']); ?>">
         <button type="submit" class="rajdhani-light" style="padding: 10px 20px; margin: 0px 10px 20px 0px;">UPDATE TASK</button>
     </form>
     <!-- DELETE FORM -->
-    <form action="/task/delete" method="post">
+    <form action="<?php echo WEB_ROOT; ?>/task/delete" method="post">
         <input type="hidden" name="id_task" value="<?= htmlspecialchars($task['id_task']); ?>">
         <button type="submit" class="rajdhani-light" style="padding: 10px 20px; margin: 0px 10px 20px 0px;">DELETE TASK</button>
     </form>
