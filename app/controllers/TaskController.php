@@ -49,13 +49,9 @@ class TaskController extends Controller {
     }
 
     public function showAction() {
-        
-        if (ob_get_level()) {
-            ob_end_flush();
-        }
 
         if ($_SERVER['REQUEST_METHOD'] === 'POST' && isset($_POST['id_task'])) {
-            $taskId = $_POST['id_task'];
+            $taskId = (int) $_POST['id_task'];
     
             $taskManager = TaskManager::getInstance();
             $task = $taskManager->getTaskById($taskId);

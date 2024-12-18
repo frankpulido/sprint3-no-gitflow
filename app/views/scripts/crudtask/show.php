@@ -14,14 +14,6 @@ require_once __DIR__ . '/../../../models/task_manager.class.php';
 ?>
 
 <?php
-/*
-$taskId = 101; // I am placing this value to prevent having an error in LINE 15
-$taskManager = TaskManager::getInstance();
-$task = $taskManager->getTaskById($taskId); // Assuming $taskId is passed to this view
-*/
-?>
-
-<?php
 if (session_status() !== PHP_SESSION_ACTIVE) {
     session_start();
 } // To retrieve the session variable that returns the Task created by TaskManager through the controller TaskController
@@ -55,7 +47,7 @@ $task = $taskManager->getTaskById($taskId); // Assuming $taskId is passed to thi
 
 <h2 class="rajdhani-light" style="margin-left: 15px;">SEARCH->UPDATE/DELETE TASK</h2>
 
-<form action="/crud_task/show" method="POST">
+<form action="<?php echo WEB_ROOT; ?>/task/show" method="POST">
     <div style="margin: 0px 0px 5px 15 px;">
         <label for="id_task" class="rajdhani-light">Choose a task:</label>
         <select name="id_task" id="id_task" class="rajdhani-light">
@@ -65,14 +57,6 @@ $task = $taskManager->getTaskById($taskId); // Assuming $taskId is passed to thi
                     <?= $item['id_task'] . ' - ' . htmlspecialchars($item['task_description']); ?>
                 </option>
             <?php endforeach; ?>
-
-            <!--
-            <?//php foreach ($tasks as $task): ?>
-                <option value="<?//= $task['id_task']; ?>">
-                    <?//= $task['id_task'] . ' - ' . htmlspecialchars($task['task_description']); ?>
-                </option>
-            <?//php endforeach; ?>
-            -->
 
         </select>
         <!--<button type="submit" class="rajdhani-light" style="padding: 8px 20px; margin: 0px 0px 0px 15px">VIEW TASK</button>-->
@@ -103,6 +87,7 @@ $task = $taskManager->getTaskById($taskId); // Assuming $taskId is passed to thi
             echo "<p>Released : " . htmlspecialchars($task['dateApproved']) . "</p>";
         }
     echo '</article>';
+
     endif;
     ?>
 </div>
@@ -127,3 +112,4 @@ $task = $taskManager->getTaskById($taskId); // Assuming $taskId is passed to thi
     <button onclick="location.href='/crud_task/update/<?//= $taskManager->getTaskById($taskId); ?>'">Update</button>
     <button onclick="location.href='/crud_task/delete/<?//= $taskManager->getTaskById($taskId) ?>'">Delete</button>
 </div>
+-->
