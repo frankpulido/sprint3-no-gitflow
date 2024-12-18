@@ -164,6 +164,21 @@ final class TaskManager {
     // DELETE :
 
     public function deleteTask(int $id_task): bool {
+        // Check if the task exists
+        $existingTask = $this->getTaskById($id_task);
+        if (!$existingTask) {
+            return false; // Task not found
+        }
+    
+        // Filter out the task to be deleted
+        $tasks = $this->loadTasks();
+        $tasks = array_filter($tasks, fn($task) => $task['id_task'] !== $id_task);
+    
+        // Save the updated task list
+        return $this->saveTasks(array_values($tasks));
+    }
+/*    
+    public function deleteTask(int $id_task): bool {
         $tasks = $this->loadTasks();
         $initialCount = count($tasks);
         $tasks = array_filter($tasks, fn($task) => $task['id_task'] !== $id_task);
@@ -172,7 +187,7 @@ final class TaskManager {
         }
         return false;  // Task not found
     }
-
+*/
 
 
 

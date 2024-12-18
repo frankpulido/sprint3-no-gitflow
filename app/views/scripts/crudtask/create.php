@@ -107,7 +107,7 @@ $programmers = $taskManager->getAllProgrammers(); // Fetch existing programmers 
 if (isset($_SESSION['created_task'])) {
     $createdTask = $_SESSION['created_task'];
     echo '<article class="grid-item rajdhani-light">';
-    echo "<p>Your new task has been successfully created!</p>";
+    echo '<p class="rajdhani-light" style="color: green;">Your new task has been successfully created!</p>';
     echo "<p><b>TASK ID</b>  : <b>" . htmlspecialchars($createdTask->getIdTask()) . "</b> | Project ID : " . htmlspecialchars($createdTask->getProjectId()) . " | Programmer ID : " . htmlspecialchars($createdTask->getProgrammerId()) . "</p>";
     echo "<p><b>" . htmlspecialchars($createdTask->getTaskKind()->value) . "</b> | Task Description : " . htmlspecialchars($createdTask->getTaskDescription()) . "</p>";
     echo "<p>Task progress : " . htmlspecialchars($createdTask->getTaskStatus()->value) . "</p>";

@@ -88,6 +88,7 @@ class TaskController extends Controller {
         $this->view->render('crudtask/update.php');
     }
     
+    /*
     public function deleteAction() {
         //echo "Delete action triggered<br>";
         //print_r($_POST); // Debugging: Check incoming POST data
@@ -111,6 +112,34 @@ class TaskController extends Controller {
         }
         $this->view->render('crudtask/delete.php');
     }
+    */
+
+    public function deleteAction() {
+        if ($_SERVER['REQUEST_METHOD'] === 'POST') {
+            if (isset($_POST['id_task'])) {
+                $taskId = (int)$_POST['id_task'];
+                $confirmation = strtolower(trim($_POST['confirmation'] ?? ''));
+    
+                // Process only if confirmation is provided
+                if ($confirmation === 'delete') {
+                    $taskManager = TaskManager::getInstance();
+                    $success = $taskManager->deleteTask($taskId);
+    
+                    if ($success) {
+                        echo '<p class="rajdhani-light" style="color: green; margin-left: 10px;">Task deleted successfully!</p>';
+                    } else {
+                        echo '<p class="rajdhani-light" style="color: red; margin-left: 10px;">Task was deleted already.</p>';
+                    }
+                } elseif (!empty($confirmation)) {
+                    echo '<p class="rajdhani-light" style="color: red; margin-left: 10px;">Confirmation failed. Task not deleted.</p>';
+                }
+            }
+        }
+    
+        // Always render the delete form
+        $this->view->render('crudtask/delete.php');
+    }
+    
     
 }
 ?>
