@@ -177,18 +177,6 @@ final class TaskManager {
         // Save the updated task list
         return $this->saveTasks(array_values($tasks));
     }
-/*    
-    public function deleteTask(int $id_task): bool {
-        $tasks = $this->loadTasks();
-        $initialCount = count($tasks);
-        $tasks = array_filter($tasks, fn($task) => $task['id_task'] !== $id_task);
-        if (count($tasks) < $initialCount) {
-            return $this->saveTasks(array_values($tasks));
-        }
-        return false;  // Task not found
-    }
-*/
-
 
 
     /* ********************************* PROJECT CRUD ********************************* */
