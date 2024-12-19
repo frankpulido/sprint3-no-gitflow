@@ -14,7 +14,7 @@
     {
         "id_task": 102,
         "project_id": 1,
-        "programmer_id": 2,
+        "programmer_id": "5",
         "task_kind": "BACKOFFICE",
         "task_status": "INIT",
         "task_description": "Backend API development for user management.",
@@ -38,7 +38,7 @@
     {
         "id_task": 104,
         "project_id": 2,
-        "programmer_id": 4,
+        "programmer_id": "3",
         "task_kind": "BACKOFFICE",
         "task_status": "PIPELINED",
         "task_description": "Implementation of customer support dashboard.",
@@ -74,7 +74,7 @@
     {
         "id_task": 107,
         "project_id": 3,
-        "programmer_id": 7,
+        "programmer_id": "6",
         "task_kind": "FRONTOFFICE",
         "task_status": "RELEASED",
         "task_description": "Developing frontend for continuous replenishment.",
@@ -98,7 +98,7 @@
     {
         "id_task": 109,
         "project_id": 4,
-        "programmer_id": 9,
+        "programmer_id": "10",
         "task_kind": "DATABASE",
         "task_status": "INIT",
         "task_description": "Database structure for product catalog.",
@@ -110,7 +110,7 @@
     {
         "id_task": 110,
         "project_id": 5,
-        "programmer_id": "10",
+        "programmer_id": "12",
         "task_kind": "FRONTOFFICE",
         "task_status": "DELIVERED",
         "task_description": "Building front end for task manager interface.",

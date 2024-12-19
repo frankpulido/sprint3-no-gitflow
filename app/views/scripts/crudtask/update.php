@@ -53,16 +53,19 @@ foreach ($programmers as $programmer) {
 
     <input type="hidden" name="id_task" value="<?= htmlspecialchars($task['id_task']); ?>">
 
-    <div class="rajdhani-light" style="margin-bottom: 10px;">
-        <button type="submit" class="rajdhani-light" style="padding: 10px 20px;">Save Changes</button>
+    <div class="rajdhani-light" style="margin-bottom: 0px;">
+        <button type="submit" class="rajdhani-light" style="padding: 10px 20px;">SAVE CHANGES</button>
     </div>
 </form>
 
 <!-- Advance Progress Form -->
-<form action="<?php echo WEB_ROOT; ?>/task/advance" method="POST">
-    <input type="hidden" name="id_task" value="<?= htmlspecialchars($task['id_task']); ?>">
+<section style="margin-bottom: 5px;">
+    <form action="<?php echo WEB_ROOT; ?>/task/advance" method="POST">
+        <input type="hidden" name="id_task" value="<?= htmlspecialchars($task['id_task']); ?>">
 
-    <div class="rajdhani-light" style="margin-bottom: 10px;">
-        <button type="submit" name="advance_status" value="true" class="rajdhani-light" style="padding: 10px 20px;">Advance Progress</button>
-    </div>
-</form>
+        <div class="rajdhani-light" style="margin-bottom: 0px;">
+            <button type="submit" name="advance_status" value="true" class="rajdhani-light" style="padding: 10px 20px;">ADVANCE PROGRESS</button>
+        </div>
+    </form>
+</section>
+
